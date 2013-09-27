@@ -1,0 +1,166 @@
+/*
+Theme Name: 2013z
+Theme URI: http://www.zipless.net/
+Description: ネバダ州に生息するアリを観察する会
+Version: 1.0
+Author: 片岡金十郎
+Tags: black
+
+ネバダ最高
+
+*/
+.none {
+	display:none;
+}
+body {
+	-webkit-text-size-adjust: 100%;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 1.214em;
+	background-color:#000;
+	background-image:url(img/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+h1#logo {
+	margin:0em auto;
+	padding:0;
+	line-height:100%;
+	width:250px;
+	padding:2em;
+	font-size:1em;
+}
+#contents {
+	font-size: 1.02em;
+	width:85%;
+	max-width:960px;
+	margin:0 auto;
+	letter-spacing: 0.09em;
+	line-height: 2.1em;
+}
+#contents a {
+	color:#333;
+}
+#contents a:hover {
+	color:#999;
+}
+#contents .date {
+	font-size:0.6em;
+	color:#999;
+	text-align:right;
+	padding:0.6em 8em;
+}
+.storycontent {
+	padding:0 4em;
+}
+.kiji {
+	background-color: #fff;
+	margin-bottom:4em;
+}
+#contents .storytitle {
+	padding:1.99em 0 0em 2.72em;
+}
+#contents .storycontent img {
+	max-width:100%;
+	height:auto;
+}
+.aligncenter{margin:0 auto;}
+#comment{padding:2.4em;}
+#gnavi {
+	width:300px;
+	margin:1.2em auto;
+	margin-bottom:4.7em;
+	text-align:center;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	font-family: "Times New Roman", Times, serif;
+}
+nav {
+	margin:0;
+	padding:0;
+}
+#gnavi li {
+	font-size:1em;
+	display:inline-block;
+	line-height:0.5em;
+}
+#gnavi ul, #gnavi li {
+	margin:0;
+	padding:0;
+}
+#gnavi a {
+	display:block;
+	width:auto;
+	height:1.3em;
+	color:#fff;
+}
+.meta {
+	font-size:0.7em;
+	color:#666666;
+	padding:1em 9em;
+	text-align:right;
+}
+.singlenav {
+	text-align:center;
+	font-size:0.7em;
+	padding:1.5em;
+}
+#foot {
+	text-align:center;
+	padding:1.2em;
+	font-size:0.6em;
+	color:#ccc;
+	background-image:url(img/foot.png);
+	padding-top:380px;
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#smad{display:none;}
+#foot a{text-decoration:none;color:#fff;}
+.singlenav a{font-size:1.4em;color:#fff!important;}
+.singlenav{margin-bottom:1.5em;}
+.insta p{color:#fff;font-size:0.8em;line-height:190%;color:black;}
+.insta{float:left;width:24%!important;height:200px;overflow:hidden;margin-right:1%;}
+.insta img{	max-width:100%;
+	height:auto;
+}
+.insta .ps{font-size:0.6em;display:none;}
+li#menu-item-20578{display:none;}
+/*.twicards{width:49%;margin-right:1%;float:left;}*/
+@media screen and (max-width: 479px) {
+body {
+	font: 1.21em/1.6;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	-webkit-text-size-adjust: 100%;
+}
+#contents {
+	width:97%;
+	margin:0 auto;
+}
+#contents .storycontent img {
+	max-width:100%;
+	height:auto;
+}
+#contents .storytitle {
+	padding:1.3em 1em 0em 1em;font-size:1.2em;
+}
+#smad{margin:0.6em auto;width:auto;display:block;text-align:center;margin-bottom:2em;color:#fff;}
+#smad a{font-size:0.5em;color:#fff;}
+#contents .storycontent {
+	padding:0 2em;
+}
+#contents .date {
+	font-size:0.6em;
+	color:#999;
+	text-align:right;
+	padding:0.6em 2em;
+}
+.insta{width:100%!important;height:auto;overflow:hidden;margin:0 auto;}
+.twicards{width:100%;}
+
+}
